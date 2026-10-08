@@ -1,0 +1,8 @@
+node_modules/
+__pycache__/
+*.py[cod]
+*.tgz
+*.log
+.env
+.env.*
+/test/ready.txt

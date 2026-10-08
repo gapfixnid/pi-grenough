@@ -1,0 +1,13 @@
+{
+  "name": "pi-grenough",
+  "version": "0.1.0",
+  "description": "Pi provider and Windows-to-WSL engine controls for GRENOUGH",
+  "type": "module",
+  "license": "MIT",
+  "keywords": ["pi-package", "pi-extension", "grenough", "wsl", "ninfer"],
+  "files": ["src", "engine.py", "README.md", "LICENSE", "test/*.test.mjs"],
+  "engines": { "node": ">=22.19.0" },
+  "peerDependencies": { "@earendil-works/pi-coding-agent": ">=1.0.0" },
+  "pi": { "extensions": ["./src/index.ts"] },
+  "scripts": { "test": "node --experimental-strip-types --test test/*.test.mjs" }
+}
