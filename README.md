@@ -41,7 +41,7 @@ Settings in `~/.pi/agent/settings.json`:
     "profile": "mtp_k8v4",
     "merge": "warp",
     "splitCap": 4,
-    "maxTokens": 8192,
+    "maxTokens": 16384,
     "autoStart": true,
     "stopOnExit": true
   }

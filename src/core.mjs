@@ -23,7 +23,7 @@ export function readConfig() {
     splitCap: settings.splitCap ?? 4,
     autoStart: settings.autoStart !== false,
     stopOnExit: settings.stopOnExit !== false,
-    maxTokens: settings.maxTokens ?? 8192,
+    maxTokens: settings.maxTokens ?? 16384,
   };
   const url = new URL(config.url);
   if (!['http:', 'https:'].includes(url.protocol) || url.username || url.password)
